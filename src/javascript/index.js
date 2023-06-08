@@ -56,7 +56,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 
 restart_quiz.onclick = () => {
   localStorage.setItem("mostRecentScore", userScore);
-  return window.location.assign("./src/pages/end.html");
+  return window.location.assign("./end.html");
 };
 
 quit_quiz.onclick = () => {
